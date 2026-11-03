@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Putar Video</title>
+  <style>
+    body { margin: 0; min-height: 100vh; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 12px;
+      background: #000; color: #fff; font: 14px sans-serif; }
+    video { width: 100%; max-height: 92vh; }
+  </style>
+</head>
+<body>
+  <video id="video" controls autoplay hidden></video>
+  <p id="status">Memuat video…</p>
+  <script src="player.js"></script>
+</body>
+</html>
